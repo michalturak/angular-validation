@@ -683,8 +683,7 @@
             }
           };
 
-          if (isValid.constructor === Object) isValid.then(setFocus);
-          else setFocus(isValid);
+          isValid.then(setFocus);
         });
 
         /**
